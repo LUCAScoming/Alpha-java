@@ -1,8 +1,8 @@
-package com.examplesqlfour.demo.controller;
+package com.event.demo.controller;
 
-import com.examplesqlfour.demo.dao.UserDao;
-import com.examplesqlfour.demo.model.User;
-import com.examplesqlfour.demo.service.UserService;
+import com.event.demo.dao.UserDao;
+import com.event.demo.model.User;
+import com.event.demo.service.UserService;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

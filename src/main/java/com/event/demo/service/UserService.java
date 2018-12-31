@@ -1,9 +1,8 @@
-package com.examplesqlfour.demo.service;
+package com.event.demo.service;
 
-import com.examplesqlfour.demo.common.Mymapper;
-import com.examplesqlfour.demo.dao.UserDao;
-import com.examplesqlfour.demo.dao.UserMpper;
-import com.examplesqlfour.demo.model.User;
+import com.event.demo.model.User;
+import com.event.demo.dao.UserDao;
+import com.event.demo.dao.UserMpper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;

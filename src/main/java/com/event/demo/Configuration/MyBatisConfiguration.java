@@ -1,4 +1,4 @@
-package com.examplesqlfour.demo.Configuration;
+package com.event.demo.Configuration;
 
 import java.util.Properties;
 

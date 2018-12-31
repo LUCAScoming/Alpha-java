@@ -1,4 +1,4 @@
-package com.examplesqlfour.demo.common;
+package com.event.demo.common;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;

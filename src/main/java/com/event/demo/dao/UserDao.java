@@ -1,11 +1,10 @@
-package com.examplesqlfour.demo.dao;
+package com.event.demo.dao;
 
 
+import com.event.demo.model.User;
 import org.apache.ibatis.annotations.*;
-import com.examplesqlfour.demo.model.User;
 import org.springframework.stereotype.Component;
 
-import java.security.Key;
 import java.util.List;
 
 //Dao 类获取表中指定数据测试是否成功

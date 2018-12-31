@@ -1,4 +1,4 @@
-package com.examplesqlfour.demo.model;
+package com.event.demo.model;
 
 import javax.persistence.Entity;
 

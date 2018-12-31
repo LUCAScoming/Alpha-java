@@ -1,7 +1,7 @@
-package com.examplesqlfour.demo.dao;
+package com.event.demo.dao;
 
-import com.examplesqlfour.demo.common.Mymapper;
-import com.examplesqlfour.demo.model.User;
+import com.event.demo.model.User;
+import com.event.demo.common.Mymapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
