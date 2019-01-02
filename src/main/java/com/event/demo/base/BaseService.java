@@ -1,12 +1,12 @@
 package com.event.demo.base;
 
-import com.yisi.stiku.common.bean.BaseEntity;
+import com.event.demo.base.constant.OrderBy;
+import com.event.demo.common.EntityUtils;
+import com.event.demo.common.Page;
+
 import com.yisi.stiku.common.mapper.MyMapper;
-import com.yisi.stiku.mathsgo.common.EntityUtils;
-import com.yisi.stiku.mathsgo.common.Page;
-import com.yisi.stiku.newmathsgo.common.constant.OrderBy;
-import com.yisi.stiku.newmathsgo.common.util.OrderByParser;
-import com.yisi.stiku.newmathsgo.common.vo.BaseQueryVo;
+
+
 import com.yisi.stiku.web.util.LoginSesionUtil;
 import org.apache.commons.lang.StringUtils;
 import org.apache.ibatis.session.RowBounds;

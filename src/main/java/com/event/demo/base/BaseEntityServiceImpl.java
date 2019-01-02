@@ -1,5 +1,7 @@
+/*
 package com.event.demo.base;
 
+import com.event.demo.common.EntityUtils;
 import com.event.demo.common.Page;
 import com.event.demo.common.PageQuery;
 import com.yisi.stiku.db.service.impl.BaseServiceImpl;
@@ -67,3 +69,4 @@ public abstract class BaseEntityServiceImpl<T extends BaseUUIDEntity> extends Ba
     }
 
 }
+*/

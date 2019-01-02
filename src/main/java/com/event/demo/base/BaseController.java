@@ -1,6 +1,7 @@
 package com.event.demo.base;
 
 import com.event.demo.common.AjaxJson;
+
 import com.event.demo.common.Page;
 import com.event.demo.common.PageQuery;
 import com.google.gson.Gson;

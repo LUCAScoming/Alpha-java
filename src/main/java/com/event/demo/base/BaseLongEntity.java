@@ -1,6 +1,6 @@
 package com.event.demo.base;
 
-import com.yisi.stiku.common.bean.BaseEntity;
+
 import lombok.Data;
 import tk.mybatis.mapper.annotation.NameStyle;
 import tk.mybatis.mapper.code.Style;
