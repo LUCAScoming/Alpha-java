@@ -46,7 +46,7 @@ public class Hello {
     public List<User> getUser(int pageNum, int pageSize, String orderBy) {
         int count = userDao.getUserListAll();
         PageHelper.startPage(pageNum, pageSize);/*每页的数量给pageSize条,查询第pageNun的结果*/
-        PageHelper.orderBy(orderBy);
+        /*PageHelper.orderBy(orderBy);*/
         /*
          * 进行分页结果的排序，id为字段名，排序规则DESC/ASC
          * */

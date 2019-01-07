@@ -1,34 +1,39 @@
 package com.event.demo.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class User {
+    @Id
+    @GeneratedValue
     private Integer id;
-   /*
-   *
-   * 学号*/
+    /*
+     *
+     * 学号*/
     private Integer Sno;
     /*
-    * 班级*/
+     * 班级*/
     private String Cname;
     /*
-    *
-    * 学生姓名*/
-    private  String Sname;
+     *
+     * 学生姓名*/
+    private String Sname;
     /*
-    *
-    * 成绩*/
+     *
+     * 成绩*/
 
-    private  Integer Score;
+    private Integer Score;
 
-    public  Integer getScore(){
-        return  Score;
+    public Integer getScore() {
+        return Score;
     }
 
-    public  void  setScore(){
-        this.Score=Score;
+    public void setScore() {
+        this.Score = Score;
     }
+
     public Integer getId() {
         return id;
     }
@@ -45,6 +50,7 @@ public class User {
     public void setSno(Integer sno) {
         this.Sno = Sno;
     }
+
     public String getCname() {
         return Cname;
     }
@@ -60,10 +66,6 @@ public class User {
     public void setSname(String sname) {
         this.Sname = Sname;
     }
-
-
-
-
 
 
 }

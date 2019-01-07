@@ -2,7 +2,9 @@ package com.event.demo;
 
 import javafx.application.Application;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -12,6 +14,9 @@ import java.util.logging.Logger;
 
 @SpringBootApplication
 
+/*@EnableAutoConfiguration(exclude={
+        JpaRepositoriesAutoConfiguration.class //禁止springboot自动加载持久化bean
+})*/
 public class DemoApplication {
     private static Logger logger = Logger.getLogger(String.valueOf(Application.class));
 
@@ -43,5 +48,7 @@ public class DemoApplication {
         source.registerCorsConfiguration("/**", buildConfig()); // 4
         return new CorsFilter(source);
     }
+
+
 
 }
